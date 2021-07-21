@@ -1,0 +1,4 @@
+(function(){
+'use strict';$APP.Kg=new $APP.R(null,"on-change","on-change",-732046149);$APP.Lg=new $APP.R(null,"size","size",1098693007);$APP.Mg=new $APP.R(null,"disabled","disabled",-1529784218);$APP.Ng=new $APP.R(null,"input","input",556931961);$APP.Og=new $APP.R(null,"surname","surname",1407918027);$APP.Pg=new $APP.R(null,"on-click","on-click",1632826543);$APP.Qg=new $APP.R(null,"div","div",1057191632);$APP.Rg=new $APP.R(null,"value","value",305978217);$APP.Sg=new $APP.R(null,"option","option",65132272);
+$APP.Tg=new $APP.R(null,"type","type",1174270348);$APP.Ug=new $APP.R(null,"max","max",61366548);$APP.Vg=new $APP.R(null,"class","class",-2030961996);$APP.Wg=new $APP.R(null,"name","name",1843675177);$APP.Xg=new $APP.R(null,"select","select",1147833503);$APP.Yg=new $APP.R(null,"h2","h2",-372662728);$APP.Zg=new $APP.R(null,"min","min",444991522);$APP.$g=new $APP.R(null,"key","key",-1516042587);
+}).call(this);

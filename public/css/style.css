@@ -1,0 +1,331 @@
+.body-container {
+  font-family: "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;
+  max-width: 640px;
+  margin: 0 auto;
+  padding-top: 42px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.125em;
+  color: #333;
+  line-height: 1.5em;
+}
+
+h1,
+h2,
+h3 {
+  color: #000;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.center-h {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.margin-h {
+  margin: 10px 0;
+}
+
+.task-title {
+  color: #f63e54;
+}
+
+.input-error {
+  background: rgba(236, 52, 52, 0.548);
+}
+
+.page-title {
+  margin-bottom: 1.25em;
+}
+
+.UI-hr {
+  background-color: #dededf;
+  margin: 0 auto;
+  height: 1px;
+}
+
+.UI-task-container {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.UI-task-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.UI-task-section {
+  min-width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.UI-task-section--with-spaces {
+  margin: 10px 0;
+}
+
+.UI-button {
+  display: block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #27272f;
+  color: #fff;
+  border-radius: 980px;
+  font-size: 14px;
+  font-weight: 300;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+
+  transition: background-color 0.25s ease-in-out;
+}
+
+.UI-button:hover {
+  background-color: #0d0d0f;
+}
+
+.UI-button:disabled {
+  background: #6d6d6f;
+}
+
+.UI-input {
+  border: 1px solid #dfdfdf;
+  border-radius: 10px;
+  outline: none;
+  padding: 3px 7.5px;
+  font-size: 16px;
+}
+
+.UI-input-right {
+  max-width: 4em;
+  text-align: right;
+}
+
+.UI-input-center {
+  max-width: 7em;
+  margin: 10px 0;
+}
+
+.UI-form-inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  padding: 3px 0;
+}
+
+.UI-list-box {
+  margin: 0 5px;
+  flex: 1 1 0%;
+  min-width: 150px;
+}
+
+.UI-space-around {
+  margin: 0 5px;
+  flex: 1 1 0%;
+}
+
+.UI-counter {
+  font-size: 42px;
+  padding: 20px 0;
+}
+
+.UI-label-big {
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.UI-label {
+  margin-right: 10px;
+  min-width: 90px;
+}
+
+.UI-canvas {
+  overflow: hidden;
+  background-color: white;
+  flex: 1 1 0%;
+  border: 1px solid rgb(187, 187, 187);
+  position: relative;
+  margin-top: 4px;
+}
+
+.UI-circle {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border: 1px solid rgb(51, 51, 51);
+  border-radius: 100px;
+  background-color: #fff;
+}
+
+.UI-circle:hover {
+  background-color: #ddd;
+}
+
+.UI-circle-drawer {
+  height: 250px;
+  min-width: 410px;
+  display: flex;
+  flex-direction: column;
+}
+
+.UI-menu {
+  padding: 4px;
+  min-width: 120px;
+  background-color: rgb(238, 238, 238);
+  border: 1px solid rgb(136, 136, 136);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 5px;
+  position: absolute;
+  cursor: pointer;
+  user-select: none;
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.UI-table-container {
+  width: 100%;
+  height: 400px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.UI-table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  background: white none repeat scroll 0% 0%;
+  border: 1px solid rgb(207, 207, 207);
+}
+
+.UI-table:first-child {
+  margin-top: 0px;
+}
+
+.UI-table-tr-th {
+  background: rgb(246, 246, 246) none repeat scroll 0% 0%;
+  user-select: none;
+}
+
+.UI-table-th,
+.UI-table-td {
+  border: 1px solid rgb(207, 207, 207);
+  width: 80px;
+  line-height: 1.25;
+}
+
+.UI-table-th-small {
+  width: 30px;
+}
+
+.UI-table-cell-header {
+  padding: 4px;
+}
+
+.UI-table-header-vertical {
+  background: rgb(246, 246, 246) none repeat scroll 0% 0%;
+  border: 1px solid rgb(207, 207, 207);
+  user-select: none;
+  text-align: center;
+}
+
+.UI-table-th,
+.UI-table-header-vertical {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(61, 61, 61);
+}
+
+.UI-table-cell {
+  padding: 0px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.UI-table-desc {
+  margin-top: 20px;
+  color: rgb(61, 61, 61);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.UI-table-cell-focus {
+  border: 1px solid blue;
+}
+
+.UI-table-cell-input {
+  width: 100%;
+  border: none;
+  height: 100%;
+  outline: none;
+  font-size: 12px;
+}
+
+#spacer {
+  width: 100%;
+  height: 20px;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
