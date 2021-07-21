@@ -1,28 +1,32 @@
-# {{name}}
+# 7GUIs in Clojurescript and Reagent
 
-## Run
+## Live demo
 
-``` shell
-yarn install
+[https://elias94.github.io/seven.html](https://elias94.github.io/seven.html)
 
-yarn watch
-```
+Original project: [7GUIs: A GUI Programming Benchmark](https://eugenkiss.github.io/7guis/)
 
-## Clean
+Template used: [shadow-cljs/lein-template](https://github.com/shadow-cljs/lein-template)
 
-``` shell
-yarn clean
-```
+## Development
 
-## Release
+### Run
 
 ``` shell
-yarn release
+npm install
+
+npm watch
 ```
 
-## License
+### Clean
 
-Copyright © 2017 FIXME
+``` shell
+npm clean
+```
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+### Release
+
+``` shell
+npm release
+```
+
